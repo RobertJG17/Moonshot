@@ -11,6 +11,11 @@
 		E13D0870255799CE0017213D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D086F255799CE0017213D /* ContentView.swift */; };
 		E13D0872255799D30017213D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13D0871255799D30017213D /* Assets.xcassets */; };
 		E13D0875255799D30017213D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13D0874255799D30017213D /* Preview Assets.xcassets */; };
+		E13D0882255B28A00017213D /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = E13D0881255B289F0017213D /* astronauts.json */; };
+		E13D0885255B28AA0017213D /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = E13D0884255B28AA0017213D /* missions.json */; };
+		E13D0888255B298E0017213D /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D0887255B298E0017213D /* Astronaut.swift */; };
+		E13D088B255B2B550017213D /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D088A255B2B550017213D /* Bundle-Decodable.swift */; };
+		E13D088E255B32FB0017213D /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D088D255B32FB0017213D /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		E13D0871255799D30017213D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E13D0874255799D30017213D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E13D0876255799D30017213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13D0881255B289F0017213D /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		E13D0884255B28AA0017213D /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		E13D0887255B298E0017213D /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		E13D088A255B2B550017213D /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		E13D088D255B32FB0017213D /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 			children = (
 				E13D086D255799CE0017213D /* MoonshotApp.swift */,
 				E13D086F255799CE0017213D /* ContentView.swift */,
+				E13D088D255B32FB0017213D /* Mission.swift */,
+				E13D0887255B298E0017213D /* Astronaut.swift */,
+				E13D088A255B2B550017213D /* Bundle-Decodable.swift */,
 				E13D0871255799D30017213D /* Assets.xcassets */,
 				E13D0876255799D30017213D /* Info.plist */,
+				E13D0881255B289F0017213D /* astronauts.json */,
+				E13D0884255B28AA0017213D /* missions.json */,
 				E13D0873255799D30017213D /* Preview Content */,
 			);
 			path = Moonshot;
@@ -126,7 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13D0882255B28A00017213D /* astronauts.json in Resources */,
 				E13D0875255799D30017213D /* Preview Assets.xcassets in Resources */,
+				E13D0885255B28AA0017213D /* missions.json in Resources */,
 				E13D0872255799D30017213D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13D0888255B298E0017213D /* Astronaut.swift in Sources */,
 				E13D0870255799CE0017213D /* ContentView.swift in Sources */,
 				E13D086E255799CE0017213D /* MoonshotApp.swift in Sources */,
+				E13D088E255B32FB0017213D /* Mission.swift in Sources */,
+				E13D088B255B2B550017213D /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

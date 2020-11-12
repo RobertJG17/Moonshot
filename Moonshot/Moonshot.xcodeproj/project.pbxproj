@@ -16,6 +16,7 @@
 		E13D0888255B298E0017213D /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D0887255B298E0017213D /* Astronaut.swift */; };
 		E13D088B255B2B550017213D /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D088A255B2B550017213D /* Bundle-Decodable.swift */; };
 		E13D088E255B32FB0017213D /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13D088D255B32FB0017213D /* Mission.swift */; };
+		E1631DB3255B54E900048DDF /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1631DB2255B54E900048DDF /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E13D0887255B298E0017213D /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		E13D088A255B2B550017213D /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		E13D088D255B32FB0017213D /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		E1631DB2255B54E900048DDF /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				E13D086D255799CE0017213D /* MoonshotApp.swift */,
 				E13D086F255799CE0017213D /* ContentView.swift */,
 				E13D088D255B32FB0017213D /* Mission.swift */,
+				E1631DB2255B54E900048DDF /* MissionView.swift */,
 				E13D0887255B298E0017213D /* Astronaut.swift */,
 				E13D088A255B2B550017213D /* Bundle-Decodable.swift */,
 				E13D0871255799D30017213D /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				E13D086E255799CE0017213D /* MoonshotApp.swift in Sources */,
 				E13D088E255B32FB0017213D /* Mission.swift in Sources */,
 				E13D088B255B2B550017213D /* Bundle-Decodable.swift in Sources */,
+				E1631DB3255B54E900048DDF /* MissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
